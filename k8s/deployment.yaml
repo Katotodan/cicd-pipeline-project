@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: Katotodan/cicd-demo:latest
+        image: YOUR_DOCKERHUB_USERNAME/cicd-demo:latest
         ports:
         - containerPort: 3000
         env:
